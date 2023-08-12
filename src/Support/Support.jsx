@@ -1,4 +1,4 @@
-import gridImage from '../assets/images-grid.png'
+import gridImage from "../assets/images-grid.png";
 
 const Support = () => {
 	return (
@@ -14,9 +14,7 @@ const Support = () => {
 				</div>
 
 				<div className="infoDiv grid">
-
 					<div className="textDiv grid">
-
 						<div className="singleInfo">
 							<span className="number">01</span>
 							<h4>Travel Requirements for Dubai</h4>
@@ -26,7 +24,7 @@ const Support = () => {
 							</p>
 						</div>
 
-            <div className="singleInfo">
+						<div className="singleInfo">
 							<span className="number colorOne">02</span>
 							<h4>Chauffer services at your arrival</h4>
 							<p>
@@ -35,7 +33,7 @@ const Support = () => {
 							</p>
 						</div>
 
-            <div className="singleInfo">
+						<div className="singleInfo">
 							<span className="number colorTwo">03</span>
 							<h4>Multi-rst trave insurance</h4>
 							<p>
@@ -43,15 +41,12 @@ const Support = () => {
 								the journey to your favorite destinations!
 							</p>
 						</div>
-
 					</div>
 
-        <div className="imgDiv">
-          <img src={gridImage} alt="" />
-        </div>
-
+					<div className="imgDiv">
+						<img src={gridImage} alt="" />
+					</div>
 				</div>
-
 			</div>
 		</section>
 	);

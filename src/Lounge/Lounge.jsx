@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Lounge = () => {
-  return (
-    <div>Lounge</div>
-  )
-}
+	return <div>Lounge</div>;
+};
 
-export default Lounge
+export default Lounge;
