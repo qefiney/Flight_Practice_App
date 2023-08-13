@@ -13,7 +13,7 @@ const Info = () => {
 				</div>
 
 				<div className="cardsDiv grid">
-					<div className="singeCard grid">
+					<div className="singleCard grid">
 						<div className="iconDiv flex">
 							<RxCalendar className="icon" />
 						</div>
@@ -24,7 +24,7 @@ const Info = () => {
 						</p>
 					</div>
 
-					<div className="singeCard grid">
+					<div className="singleCard grid">
 						<div className="iconDiv flex">
 							<RxCalendar className="icon" />
 						</div>
@@ -35,7 +35,7 @@ const Info = () => {
 						</p>
 					</div>
 
-					<div className="singeCard grid">
+					<div className="singleCard grid">
 						<div className="iconDiv flex">
 							<BsShieldCheck className="icon" />
 						</div>
@@ -46,7 +46,7 @@ const Info = () => {
 						</p>
 					</div>
 
-					<div className="singeCard grid">
+					<div className="singleCard grid">
 						<div className="iconDiv flex">
 							<RxCalendar className="icon" />
 						</div>

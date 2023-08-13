@@ -167,7 +167,7 @@ h2 {
 		padding: 1rem 1rem;
 		position: fixed;
 		background: var(--SecondaryColor);
-		transition: .3s ease-in-out;
+		transition: 0.3s ease-in-out;
 
 		.logoDiv {
 			.logo {
@@ -239,9 +239,9 @@ h2 {
 		}
 	}
 
-	.navBarTwo_Color{
+	.navBarTwo_Color {
 		background: var(--SecondaryColor);
-		padding: .5rem 1rem;
+		padding: 0.5rem 1rem;
 		box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 	}
 }
@@ -369,13 +369,13 @@ h2 {
 }
 
 // Support Section Styling ====>
-.support{
-	.sectionContainer{
-		.titlesDiv{
+.support {
+	.sectionContainer {
+		.titlesDiv {
 			text-align: center;
 
-			small{
-				letter-spacing: .8rem;
+			small {
+				letter-spacing: 0.8rem;
 				text-transform: uppercase;
 				font-size: 13px;
 				color: var(--blackColor);
@@ -383,15 +383,15 @@ h2 {
 			}
 		}
 
-		.infoDiv{
+		.infoDiv {
 			margin-top: 2rem;
 			gap: 1.5rem;
 
-			.textDiv{
+			.textDiv {
 				gap: 1.5rem;
 
-				.singleInfo{
-					.number{
+				.singleInfo {
+					.number {
 						background: var(--PrimaryColor);
 						padding: 5px 12px;
 						width: 40px;
@@ -402,18 +402,18 @@ h2 {
 						color: var(--whiteColor);
 					}
 
-					.colorOne{
+					.colorOne {
 						background: var(--colorOne);
 					}
-					.colorTwo{
+					.colorTwo {
 						background: var(--colorTwo);
 					}
 				}
 			}
 
-			.imgDiv{
+			.imgDiv {
 				margin: auto;
-				img{
+				img {
 					width: 100%;
 					height: auto;
 					max-width: 420px;
@@ -426,13 +426,55 @@ h2 {
 // Info Section Styling ====>
 .info {
 	background: var(--SecondaryColor);
-
-	.infoContainer{
+	.infoContainer {
 		.titleDiv {
 			flex-direction: column;
 			text-align: center;
 			gap: 1.5rem;
 			justify-content: space-between;
+		}
+
+		.cardsDiv {
+			gap: 1.5rem;
+			margin-top: 3rem;
+
+			.singleCard {
+				background: var(--whiteColor);
+				padding: 3rem 2rem;
+				border-radius: 10rem;
+				gap: 1rem;
+				text-align: center;
+				margin: auto;
+				height: 320px;
+				width: 90%;
+				max-width: 250px;
+
+				.iconDiv {
+					justify-content: center;
+					margin: auto;
+					background: var(--PrimaryColor);
+					width: max-content;
+					height: 55px;
+					padding: 1rem;
+					border-radius: 3rem;
+
+					.icon {
+						color: var(--whiteColor);
+					}
+				}
+
+				.cardTitle {
+					color: var(--blackColor);
+					font-weight: 700;
+				}
+
+				.colorOne {
+					background: var(--colorOne);
+				}
+				.colorTwo {
+					background: var(--colorTwo);
+				}
+			}
 		}
 	}
 }
