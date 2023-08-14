@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import imageGrid from "../assets/images-grid.png";
 
 const Lounge = () => {
