@@ -519,4 +519,34 @@ h2 {
 .travelers .sectionContainer .travelersContainer .singleTraveler:hover .travelerName {
   bottom: 0;
   transition: 0.6s ease-in-out;
+}
+
+.subscribers {
+  background: var(--SecondaryColor);
+}
+.subscribers .sectionContainer {
+  text-align: center;
+}
+.subscribers .sectionContainer .inputDiv {
+  margin-top: 1rem;
+  flex-direction: column;
+  background: var(--whiteColor);
+  border-radius: 1rem;
+}
+.subscribers .sectionContainer .inputDiv input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 1rem 0.5rem;
+}
+.subscribers .sectionContainer .inputDiv input::-moz-placeholder {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.subscribers .sectionContainer .inputDiv input::placeholder {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.subscribers .sectionContainer .inputDiv .btn {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
