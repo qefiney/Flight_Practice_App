@@ -5,7 +5,7 @@ import { RxCalendar } from "react-icons/rx";
 const Search = () => {
 	return (
 		<section className="search container section">
-			<div className="sectionContainer grid">
+			<div className="sectionContainer grid flex">
 				<div className="btns flex">
 					<div className="singleBtn">
 						<span>Economy</span>
@@ -68,9 +68,9 @@ const Search = () => {
 							<input type="text" placeholder="Add Date" />
 						</div>
 					</div>
-
-					<button className="btn btnBlock flex">Search Flight</button>
 				</div>
+
+				<button className="btn searchBtn flex">Search Flight</button>
 			</div>
 		</section>
 	);
