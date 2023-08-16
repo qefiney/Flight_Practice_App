@@ -641,4 +641,7 @@ h2 {
     text-align: center;
     margin-top: 1rem;
   }
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
