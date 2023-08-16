@@ -364,6 +364,11 @@ h2 {
 					}
 				}
 			}
+
+			.searchBtn {
+				width: 100%;
+				justify-content: center;
+			}
 		}
 	}
 }
@@ -735,19 +740,29 @@ h2 {
 }
 
 // MEDIA SCREEN STYLINGS ========================================>
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 460px) {
 	// Home section styling ====>
 	.home {
 		padding-top: 12.5rem;
 	}
-}
 
-// Search section styling ====>
-.search {
-	.sectionContainer {
-		.searchInputs {
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
+	// Search section styling ====>
+	.search {
+		.sectionContainer {
+			.searchInputs {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+
+			.searchBtn {
+				width: 50%;
+				right: 50%;
+				margin-left: 25%;
+				justify-content: center;
+				text-align: center;
+				margin-top: 1rem;
+			}
 		}
 	}
+
 }

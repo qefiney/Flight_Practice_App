@@ -318,6 +318,10 @@ h2 {
   font-size: 12px;
   opacity: 0.5;
 }
+.search .sectionContainer .searchInputs .searchBtn {
+  width: 100%;
+  justify-content: center;
+}
 
 .support .sectionContainer .titlesDiv {
   text-align: center;
@@ -621,12 +625,20 @@ h2 {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 460px) {
   .home {
     padding-top: 12.5rem;
   }
-}
-.search .sectionContainer .searchInputs {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  .search .sectionContainer .searchInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .search .sectionContainer .searchBtn {
+    width: 50%;
+    right: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
