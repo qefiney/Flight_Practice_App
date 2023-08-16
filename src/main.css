@@ -681,4 +681,14 @@ h2 {
     margin-top: 2rem;
     grid-template-columns: repeat(2, 1fr);
   }
+  .info .infoCOntainer {
+    flex-direction: row;
+  }
+  .info .infoCOntainer h2 {
+    text-align: left;
+    max-width: 500px;
+  }
+  .info .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
