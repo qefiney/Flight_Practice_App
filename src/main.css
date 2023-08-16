@@ -644,4 +644,13 @@ h2 {
   .travelers .sectionContainer .travelersContainer {
     grid-template-columns: repeat(2, 1fr);
   }
+  .subscribers .sectionContainer {
+    max-width: 80%;
+    margin: auto;
+  }
+  .subscribers .sectionContainer .inputDiv {
+    flex-direction: row;
+    padding: 0 0.5rem;
+    border-radius: 3rem;
+  }
 }/*# sourceMappingURL=main.css.map */

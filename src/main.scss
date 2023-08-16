@@ -765,7 +765,6 @@ h2 {
 		}
 	}
 
-
 	// Travel section styling ====>
 	.travelers {
 		.sectionContainer {
@@ -775,4 +774,17 @@ h2 {
 		}
 	}
 
+	// Subscribers section styling ====>
+	.subscribers {
+		.sectionContainer {
+			max-width: 80%;
+			margin: auto;
+
+			.inputDiv {
+				flex-direction: row;
+				padding: 0 0.5rem;
+				border-radius: 3rem;
+			}
+		}
+	}
 }
