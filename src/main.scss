@@ -733,3 +733,11 @@ h2 {
 		text-align: center;
 	}
 }
+
+// MEDIA SCREEN STYLINGS ========================================>
+@media screen and (min-width: 480px) {
+	// Home section styling ====>
+	.home {
+		padding-top: 12.5rem;
+	}
+}

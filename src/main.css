@@ -619,4 +619,10 @@ h2 {
   gap: 1rem;
   border-top: 1px solid var(--greyText);
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .home {
+    padding-top: 12.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
