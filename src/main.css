@@ -677,4 +677,8 @@ h2 {
     border-radius: 3rem;
     flex-direction: row;
   }
+  .support .sectionContainer .infoDiv .textDiv {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
