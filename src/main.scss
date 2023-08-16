@@ -820,4 +820,16 @@ h2 {
 			top: -8%;
 		}
 	}
+
+		// Search section styling ====>
+		.search {
+			.sectionContainer {
+				.btns {
+					border-radius: 3rem;
+					flex-direction: row;
+				}
+			}
+		}
+
+
 }

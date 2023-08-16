@@ -673,4 +673,8 @@ h2 {
     width: 95%;
     top: -8%;
   }
+  .search .sectionContainer .btns {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=main.css.map */
