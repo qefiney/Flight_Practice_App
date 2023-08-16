@@ -653,4 +653,11 @@ h2 {
     padding: 0 0.5rem;
     border-radius: 3rem;
   }
+  .footer .sectionContainer {
+    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .sectionContainer .footerLinks {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
