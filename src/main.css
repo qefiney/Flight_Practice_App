@@ -625,4 +625,8 @@ h2 {
   .home {
     padding-top: 12.5rem;
   }
+}
+.search .sectionContainer .searchInputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }/*# sourceMappingURL=main.css.map */
