@@ -821,40 +821,40 @@ h2 {
 		}
 	}
 
-		// Search section styling ====>
-		.search {
-			.sectionContainer {
-				.btns {
-					border-radius: 3rem;
-					flex-direction: row;
+	// Search section styling ====>
+	.search {
+		.sectionContainer {
+			.btns {
+				border-radius: 3rem;
+				flex-direction: row;
+			}
+		}
+	}
+
+	// Support section styling ====>
+	.support {
+		.sectionContainer {
+			.infoDiv {
+				.textDiv {
+					margin-top: 2rem;
+					grid-template-columns: repeat(2, 1fr);
 				}
 			}
 		}
+	}
 
-				// Support section styling ====>
-				.support {
-					.sectionContainer {
-						.infoDiv {
-							.textDiv {
-								margin-top: 2rem;
-								grid-template-columns: repeat(2, 1fr);
-							}
-						}
-					}
-				}
+	// Info section styling ====>
+	.info {
+		.infoCOntainer {
+			flex-direction: row;
+			h2 {
+				text-align: left;
+				max-width: 500px;
+			}
+		}
 
-				// Info section styling ====>
-				.info {
-					.infoCOntainer {
-						flex-direction: row;
-						h2{
-							text-align: left;
-							max-width: 500px;
-						}
-					}
-
-					.cardsDiv {
-						grid-template-columns: repeat(2, 1fr);
-					}
-				}
+		.cardsDiv {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
 }
