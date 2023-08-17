@@ -808,8 +808,4 @@ h2 {
   .info .infoContainer .cardsDiv {
     grid-template-columns: repeat(3, 1fr);
   }
-  .info .infoContainer .cardsDiv .singleCard {
-    max-width: 300px;
-    padding: 3rem;
-  }
 }/*# sourceMappingURL=main.css.map */
