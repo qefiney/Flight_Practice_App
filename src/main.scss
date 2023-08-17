@@ -515,7 +515,7 @@ h2 {
 	}
 }
 
-// Lounge Section Styling ====>
+// Travelers Section Styling ====>
 .travelers {
 	.sectionContainer {
 		text-align: center;
@@ -855,6 +855,17 @@ h2 {
 
 		.cardsDiv {
 			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	// Lounge section styling ====>
+	.lounge {
+		.sectionContainer {
+			.textDiv {
+				.grids {
+					grid-template-columns: repeat(2, 1fr);
+				}
+			}
 		}
 	}
 }
