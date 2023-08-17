@@ -929,4 +929,11 @@ h2 {
 				}
 			}
 		}
+
+			// Footer section styling ====>
+	.footer {
+		.sectionContainer {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
 }

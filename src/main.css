@@ -730,4 +730,7 @@ h2 {
   .search .sectionContainer .searchInputs {
     grid-template-columns: repeat(3, 1fr);
   }
+  .footer .sectionContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
