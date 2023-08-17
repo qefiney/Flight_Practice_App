@@ -723,4 +723,11 @@ h2 {
     top: -8%;
     left: 0;
   }
+  .search .sectionContainer .btns {
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */

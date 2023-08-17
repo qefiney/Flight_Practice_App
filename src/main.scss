@@ -915,4 +915,18 @@ h2 {
 			}
 		}
 	}
+
+		// Search section styling ====>
+		.search {
+			.sectionContainer {
+				.btns {
+					border-radius: 3rem;
+					flex-direction: row;
+				}
+
+				.searchInputs {
+					grid-template-columns: repeat(3, 1fr);
+				}
+			}
+		}
 }
