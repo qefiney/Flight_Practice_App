@@ -875,18 +875,44 @@ h2 {
 			.inputDiv {
 				justify-content: space-between;
 
-				.btn{
+				.btn {
 					max-width: max-content;
 				}
 			}
 		}
 	}
 
-		// Footer section styling ====>
-		.footer {
-			.sectionContainer {
-				padding-top: 2rem;
-				grid-template-columns: repeat(3, 1fr);
+	// Footer section styling ====>
+	.footer {
+		.sectionContainer {
+			padding-top: 2rem;
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}
+
+@media screen and (min-width: 680px) {
+	// Home section styling ====>
+	.home {
+		.mainText {
+			width: 80%;
+		}
+
+		.homeImages {
+			.videoDiv {
+				width: 80%;
+				.video {
+					height: 100%;
+					width: 100%;
+					border-radius: 15rem;
+				}
+			}
+
+			.plane {
+				width: 80%;
+				top: -8%;
+				left: 0;
 			}
 		}
+	}
 }
