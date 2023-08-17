@@ -868,4 +868,17 @@ h2 {
 			}
 		}
 	}
+
+	// Subscribers section styling ====>
+	.subscribers {
+		.sectionContainer {
+			.inputDiv {
+				justify-content: space-between;
+
+				.btn{
+					max-width: max-content;
+				}
+			}
+		}
+	}
 }

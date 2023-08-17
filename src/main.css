@@ -694,4 +694,11 @@ h2 {
   .lounge .sectionContainer .textDiv .grids {
     grid-template-columns: repeat(2, 1fr);
   }
+  .subscribers .sectionContainer .inputDiv {
+    justify-content: space-between;
+  }
+  .subscribers .sectionContainer .inputDiv .btn {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
 }/*# sourceMappingURL=main.css.map */
