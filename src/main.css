@@ -701,4 +701,8 @@ h2 {
     max-width: -moz-max-content;
     max-width: max-content;
   }
+  .footer .sectionContainer {
+    padding-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */

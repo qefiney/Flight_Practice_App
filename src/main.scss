@@ -881,4 +881,12 @@ h2 {
 			}
 		}
 	}
+
+		// Footer section styling ====>
+		.footer {
+			.sectionContainer {
+				padding-top: 2rem;
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
 }
