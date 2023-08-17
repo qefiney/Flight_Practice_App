@@ -773,7 +773,19 @@ h2 {
     color: var(--PrimaryColor);
     font-weight: 700;
   }
-  .navBar .navBarTwo .btnOne, .navBar .navBarTwo .toggleIcon {
+  .navBar .navBarTwo .btnOne,
+  .navBar .navBarTwo .toggleIcon {
     display: none;
+  }
+  .search .sectionContainer .btns {
+    width: 70%;
+    border-radius: 3rem;
+    flex-direction: row;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .search .sectionContainer .searchInputs .singleInput .texts input {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
