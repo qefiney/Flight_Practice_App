@@ -1032,4 +1032,26 @@ h2 {
 			}
 		}
 	}
+
+	// Info section styling ====>
+	.info {
+		.infoContainer {
+			padding: 0 6rem;
+
+			.titleDiv {
+				width: 90%;
+				margin: auto;
+				align-items: center;
+			}
+
+			.cardsDiv {
+				grid-template-columns: repeat(3,1fr);
+
+				.singleCard {
+					max-width: 300px;
+					padding: 3rem;
+				}
+			}
+		}
+	}
 }
