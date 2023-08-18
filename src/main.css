@@ -817,4 +817,7 @@ h2 {
   .lounge .sectionContainer .textDiv .grids {
     grid-template-columns: repeat(2, 1fr);
   }
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }/*# sourceMappingURL=main.css.map */
