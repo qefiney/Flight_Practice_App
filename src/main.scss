@@ -1049,4 +1049,18 @@ h2 {
 			}
 		}
 	}
+
+	// Lounge section styling ====>
+	.lounge {
+		.sectionContainer {
+			grid-template-columns: repeat(2, 1fr);
+			.textDiv {
+				grid-area: 1;
+
+				.grids {
+					grid-template-columns: repeat(2,1fr);
+				}
+			}
+		}
+	}
 }
