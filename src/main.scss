@@ -1045,7 +1045,7 @@ h2 {
 			}
 
 			.cardsDiv {
-				grid-template-columns: repeat(3,1fr);
+				grid-template-columns: repeat(3, 1fr);
 
 				.singleCard {
 					max-width: 260px;
@@ -1063,7 +1063,7 @@ h2 {
 				grid-area: 1;
 
 				.grids {
-					grid-template-columns: repeat(2,1fr);
+					grid-template-columns: repeat(2, 1fr);
 				}
 			}
 		}
@@ -1091,22 +1091,47 @@ h2 {
 		}
 	}
 
-		// Search section styling ====>
-		.search {
-			.sectionContainer {
-				.searchInputs {
-					grid-template-columns: repeat(5, 1fr);
-				}
+	// Search section styling ====>
+	.search {
+		.sectionContainer {
+			.searchInputs {
+				grid-template-columns: repeat(5, 1fr);
 			}
 		}
+	}
 
-				// Travelers section styling ====>
-				.travelers {
-					.sectionContainer {
-						.travelersContainer {
-							grid-template-columns: repeat(4, 1fr);
-							margin-bottom: 3rem 0;
-						}
-					}
-				}
+	// Travelers section styling ====>
+	.travelers {
+		.sectionContainer {
+			.travelersContainer {
+				grid-template-columns: repeat(4, 1fr);
+				margin-bottom: 3rem 0;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	// Default styling ====>
+	p {
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 27px;
+	}
+
+	.section {
+		padding: 6rem 0 4rem;
+	}
+
+	.container {
+		width: 75%;
+		margin: auto;
+	}
 }
