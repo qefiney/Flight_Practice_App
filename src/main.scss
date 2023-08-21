@@ -1135,14 +1135,43 @@ h2 {
 		margin: auto;
 	}
 
-		// NavBar section styling ====>
-		.navBar {
-			.navBarOne, .navBarTwo {
-				padding: 1.5rem 5rem;
+	// NavBar section styling ====>
+	.navBar {
+		.navBarOne,
+		.navBarTwo {
+			padding: 1.5rem 5rem;
+		}
+
+		.navBarTwo_Color {
+			padding: 0 5rem;
+		}
+	}
+
+	// NavBar section styling ====>
+	.home {
+		.mainText {
+			width: 60%;
+			font-size: 30px;
+			line-height: 4rem;
+		}
+
+		.homeImages {
+			.videoDiv {
+				width: 90%;
+				height: 300px;
+
+				.video {
+					height: 100%;
+					width: 100%;
+					object-fit: cover;
+					border-radius: 15rem;
+				}
 			}
 
-			.navBarTwo_Color {
-				padding: 0 5rem;
+			.plane {
+				width: 100%;
+				top: -10%;
 			}
 		}
+	}
 }
