@@ -1138,7 +1138,11 @@ h2 {
 		// NavBar section styling ====>
 		.navBar {
 			.navBarOne, .navBarTwo {
-				padding-bottom: 1.5rem 5rem;
+				padding: 1.5rem 5rem;
+			}
+
+			.navBarTwo_Color {
+				padding: 0 5rem;
 			}
 		}
 }
