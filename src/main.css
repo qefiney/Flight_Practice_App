@@ -888,4 +888,7 @@ h2 {
     width: 100%;
     top: -10%;
   }
+  .search .sectionContainer .btns {
+    width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
