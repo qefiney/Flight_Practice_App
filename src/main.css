@@ -838,4 +838,8 @@ h2 {
   .search .sectionContainer .searchInputs {
     grid-template-columns: repeat(5, 1fr);
   }
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 3rem 0;
+  }
 }/*# sourceMappingURL=main.css.map */

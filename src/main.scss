@@ -1099,4 +1099,14 @@ h2 {
 				}
 			}
 		}
+
+				// Travelers section styling ====>
+				.travelers {
+					.sectionContainer {
+						.travelersContainer {
+							grid-template-columns: repeat(4, 1fr);
+							margin-bottom: 3rem 0;
+						}
+					}
+				}
 }
