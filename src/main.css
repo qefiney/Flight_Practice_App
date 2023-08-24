@@ -896,4 +896,13 @@ h2 {
   .search .sectionContainer {
     max-width: 60%;
   }
+}
+@media screen and (min-width: 1332px) {
+  .navBar .navBarOne .menu {
+    gap: 1rem;
+  }
+  .navBar .navBarOne .menu .listItem {
+    padding: 0 1.5rem;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */

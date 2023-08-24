@@ -1193,3 +1193,19 @@ h2 {
 		}
 	}
 }
+
+@media screen and (min-width: 1332px) {
+	// NavBar section styling ====>
+	.navBar {
+		.navBarOne {
+			.menu {
+				gap: 1rem;
+
+				.listItem {
+					padding: 0 1.5rem;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
