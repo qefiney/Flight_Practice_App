@@ -1147,7 +1147,7 @@ h2 {
 		}
 	}
 
-	// NavBar section styling ====>
+	// Home section styling ====>
 	.home {
 		.mainText {
 			width: 60%;
@@ -1181,6 +1181,15 @@ h2 {
 			.btns {
 				width: 50%;
 			}
+		}
+	}
+}
+
+@media screen and (min-width: 1106px) {
+	// Search section styling ====>
+	.search {
+		.sectionContainer {
+			max-width: 60%;
 		}
 	}
 }
