@@ -1195,22 +1195,22 @@ h2 {
 }
 
 @media screen and (min-width: 1332px) {
-		// Home section styling ====>
-		.home {
-			.mainText {
-				width: 100%;
-				padding-top: 30px;
-				font-size: 40px;
-			}
-			.homeImages {
-				width: 100%;
+	// Home section styling ====>
+	.home {
+		.mainText {
+			width: 100%;
+			padding-top: 30px;
+			font-size: 40px;
+		}
+		.homeImages {
+			width: 100%;
 
-				.plane {
-					top: -40%;
-					left: -5%;
-				}
+			.plane {
+				top: -40%;
+				left: -5%;
 			}
 		}
+	}
 
 	// NavBar section styling ====>
 	.navBar {
@@ -1226,17 +1226,34 @@ h2 {
 		}
 	}
 
-		// Search section styling ====>
-		.search {
-			.sectionContainer {
-				max-width: 100%;
-				.searchInputs {
-					grid-template-columns: repeat(5, 1fr);
+	// Search section styling ====>
+	.search {
+		.sectionContainer {
+			max-width: 100%;
+			.searchInputs {
+				grid-template-columns: repeat(5, 1fr);
 
-					.searchBtn {
-						width: fit-content;
+				.searchBtn {
+					width: fit-content;
+				}
+			}
+		}
+	}
+
+	// Support section styling ====>
+	.support {
+		.sectionContainer {
+			.infoDiv {
+				gap: 1rem;
+
+				.textDiv {
+					.singleInfo {
+						p {
+							max-width: 500px;
+						}
 					}
 				}
 			}
 		}
+	}
 }

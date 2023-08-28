@@ -927,4 +927,10 @@ h2 {
     width: -moz-fit-content;
     width: fit-content;
   }
+  .support .sectionContainer .infoDiv {
+    gap: 1rem;
+  }
+  .support .sectionContainer .infoDiv .textDiv .singleInfo p {
+    max-width: 500px;
+  }
 }/*# sourceMappingURL=main.css.map */
