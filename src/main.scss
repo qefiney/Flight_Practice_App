@@ -1225,4 +1225,18 @@ h2 {
 			}
 		}
 	}
+
+		// Search section styling ====>
+		.search {
+			.sectionContainer {
+				max-width: 100%;
+				.searchInputs {
+					grid-template-columns: repeat(5, 1fr);
+
+					.searchBtn {
+						width: fit-content;
+					}
+				}
+			}
+		}
 }

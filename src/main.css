@@ -917,4 +917,14 @@ h2 {
     padding: 0 1.5rem;
     font-size: 14px;
   }
+  .search .sectionContainer {
+    max-width: 100%;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .search .sectionContainer .searchInputs .searchBtn {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }/*# sourceMappingURL=main.css.map */
