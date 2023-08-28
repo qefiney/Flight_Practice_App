@@ -1195,6 +1195,23 @@ h2 {
 }
 
 @media screen and (min-width: 1332px) {
+		// Home section styling ====>
+		.home {
+			.mainText {
+				width: 100%;
+				padding-top: 30px;
+				font-size: 40px;
+			}
+			.homeImages {
+				width: 100%;
+
+				.plane {
+					top: -40%;
+					left: -5%;
+				}
+			}
+		}
+
 	// NavBar section styling ====>
 	.navBar {
 		.navBarOne {
