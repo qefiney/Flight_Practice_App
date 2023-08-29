@@ -1263,10 +1263,12 @@ h2 {
 		.sectionContainer {
 			max-width: 100%;
 			.searchInputs {
-				grid-template-columns: repeat(5, 1fr);
+				grid-template-columns: repeat(4, 1fr);
 
 				.searchBtn {
 					width: fit-content;
+					margin-top: 140px;
+					margin-bottom: 10px;
 				}
 			}
 		}

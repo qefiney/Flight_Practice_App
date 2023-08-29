@@ -953,11 +953,13 @@ h2 {
     max-width: 100%;
   }
   .search .sectionContainer .searchInputs {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .search .sectionContainer .searchInputs .searchBtn {
     width: -moz-fit-content;
     width: fit-content;
+    margin-top: 140px;
+    margin-bottom: 10px;
   }
   .support .sectionContainer .infoDiv {
     gap: 1rem;
