@@ -1186,12 +1186,24 @@ h2 {
 }
 
 @media screen and (min-width: 1106px) {
-	// Search section styling ====>
-	.search {
-		.sectionContainer {
-			max-width: 60%;
+		// Search section styling ====>
+		.search {
+			.sectionContainer {
+				position: relative;
+				padding-bottom: 70px;
+				max-width: 100%;
+				.searchInputs {
+					grid-template-columns: repeat(4, 1fr);
+
+					.searchBtn {
+						position: absolute;
+						width: fit-content;
+						margin-top: 17%;
+						margin-right: -7%;
+					}
+				}
+			}
 		}
-	}
 }
 
 @media screen and (min-width: 1332px) {
