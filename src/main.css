@@ -913,6 +913,21 @@ h2 {
     top: -25%;
     left: -5%;
   }
+  .search .sectionContainer {
+    position: relative;
+    padding-bottom: 70px;
+    max-width: 100%;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .search .sectionContainer .searchInputs .searchBtn {
+    position: absolute;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 17%;
+    margin-right: -7%;
+  }
 }
 @media screen and (min-width: 1332px) {
   .home .mainText {
