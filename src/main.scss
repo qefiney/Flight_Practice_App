@@ -1300,14 +1300,14 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
-	// Subscribers section styling ====>
-.home {
-	.homeImages {
-		width: 100%;
-		.plane {
-			width: 90%;
-			top: -15%;
+	// Home section styling ====>
+	.home {
+		.homeImages {
+			width: 100%;
+			.plane {
+				width: 90%;
+				top: -15%;
+			}
 		}
 	}
-}
 }
