@@ -1186,6 +1186,23 @@ h2 {
 }
 
 @media screen and (min-width: 1106px) {
+		// Home section styling ====>
+		.home {
+			.mainText {
+				width: 100%;
+				padding-top: 30px;
+				font-size: 40px;
+			}
+			.homeImages {
+				width: 100%;
+
+				.plane {
+					top: -25%;
+					left: -5%;
+				}
+			}
+		}
+
 		// Search section styling ====>
 		.search {
 			.sectionContainer {

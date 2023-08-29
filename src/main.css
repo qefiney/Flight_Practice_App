@@ -893,6 +893,18 @@ h2 {
   }
 }
 @media screen and (min-width: 1106px) {
+  .home .mainText {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 40px;
+  }
+  .home .homeImages {
+    width: 100%;
+  }
+  .home .homeImages .plane {
+    top: -25%;
+    left: -5%;
+  }
   .search .sectionContainer {
     position: relative;
     padding-bottom: 70px;
