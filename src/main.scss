@@ -1150,78 +1150,23 @@ h2 {
 	// Home section styling ====>
 	.home {
 		.mainText {
-			width: 60%;
-			font-size: 30px;
-			line-height: 4rem;
+			width: 100%;
+			padding-top: 30px;
+			font-size: 40px;
 		}
-
 		.homeImages {
-			.videoDiv {
-				width: 90%;
-				height: 300px;
+			width: 100%;
 
-				.video {
-					height: 100%;
-					width: 100%;
-					object-fit: cover;
-					border-radius: 15rem;
-				}
+			.video {
+				width: 100%;
 			}
-
 			.plane {
+				top: -15%;
+				left: -5%;
 				width: 100%;
-				top: -10%;
 			}
 		}
 	}
-
-	// Search section styling ====>
-	.search {
-		.sectionContainer {
-			.btns {
-				width: 50%;
-			}
-		}
-	}
-}
-
-@media screen and (min-width: 1106px) {
-		// Home section styling ====>
-		.home {
-			.mainText {
-				width: 100%;
-				padding-top: 30px;
-				font-size: 40px;
-			}
-			.homeImages {
-				width: 100%;
-
-				.plane {
-					top: -25%;
-					left: -5%;
-				}
-			}
-		}
-
-		// Search section styling ====>
-		.search {
-			.sectionContainer {
-				position: relative;
-				padding-bottom: 70px;
-				max-width: 100%;
-				.searchInputs {
-					grid-template-columns: repeat(4, 1fr);
-
-					.searchBtn {
-						position: absolute;
-						width: fit-content;
-						margin-top: 17%;
-						margin-right: -7%;
-					}
-				}
-			}
-		}
-}
 
 @media screen and (min-width: 1332px) {
 	// Home section styling ====>
