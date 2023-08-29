@@ -970,4 +970,13 @@ h2 {
   .subscribers .sectionContainer {
     max-width: 50%;
   }
+}
+@media screen and (min-width: 1440px) {
+  .home .homeImages {
+    width: 100%;
+  }
+  .home .homeImages .plane {
+    width: 90%;
+    top: -15%;
+  }
 }/*# sourceMappingURL=main.css.map */
