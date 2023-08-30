@@ -1093,8 +1093,18 @@ h2 {
 	// Search section styling ====>
 	.search {
 		.sectionContainer {
+			position: relative;
+			padding-bottom: 80px;
+			max-width: 100%;
 			.searchInputs {
-				grid-template-columns: repeat(5, 1fr);
+				grid-template-columns: repeat(4, 1fr);
+
+				.searchBtn {
+					position: absolute;
+					width: fit-content;
+					margin-top: 17%;
+					margin-right: -7%;
+				}
 			}
 		}
 	}
