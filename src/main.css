@@ -853,8 +853,7 @@ h2 {
   }
   .search .sectionContainer .searchInputs .searchBtn {
     position: absolute;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 20%;
     margin-top: 17%;
     margin-right: -7%;
   }
