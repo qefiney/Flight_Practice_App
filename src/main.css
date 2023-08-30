@@ -882,14 +882,14 @@ h2 {
   }
   .navBar .navBarOne,
   .navBar .navBarTwo {
-    padding: 1.5rem 5rem;
+    padding: 1rem 3rem;
   }
   .navBar .navBarTwo_Color {
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
   .home .mainText {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 40px;
   }
   .home .homeImages {
