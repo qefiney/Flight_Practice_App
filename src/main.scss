@@ -997,6 +997,7 @@ h2 {
 	// Search section styling ====>
 	.search {
 		.sectionContainer {
+			padding-bottom: 75px;
 			.btns {
 				width: 70%;
 				border-radius: 3rem;
@@ -1012,6 +1013,13 @@ h2 {
 							width: 100%;
 						}
 					}
+				}
+
+				.searchBtn {
+					position: absolute;
+					width: 20%;
+					margin-top: 17%;
+					margin-right: -10%;
 				}
 			}
 		}

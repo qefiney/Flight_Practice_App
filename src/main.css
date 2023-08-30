@@ -776,6 +776,9 @@ h2 {
   .navBar .navBarTwo .toggleIcon {
     display: none;
   }
+  .search .sectionContainer {
+    padding-bottom: 75px;
+  }
   .search .sectionContainer .btns {
     width: 70%;
     border-radius: 3rem;
@@ -786,6 +789,12 @@ h2 {
   }
   .search .sectionContainer .searchInputs .singleInput .texts input {
     width: 100%;
+  }
+  .search .sectionContainer .searchInputs .searchBtn {
+    position: absolute;
+    width: 20%;
+    margin-top: 17%;
+    margin-right: -10%;
   }
   .support .sectionContainer .infoDiv {
     grid-template-columns: repeat(2, 1fr);
