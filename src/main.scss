@@ -1217,7 +1217,7 @@ h2 {
 			width: 100%;
 
 			.plane {
-				top: -25%;
+				top: -20%;
 				left: -5%;
 			}
 		}
@@ -1227,16 +1227,16 @@ h2 {
 	.search {
 		.sectionContainer {
 			position: relative;
-			padding-bottom: 70px;
+			padding-bottom: 75px;
 			max-width: 100%;
 			.searchInputs {
 				grid-template-columns: repeat(4, 1fr);
 
 				.searchBtn {
 					position: absolute;
-					width: fit-content;
+					width: 20%;
 					margin-top: 17%;
-					margin-right: -7%;
+					margin-right: -10%;
 				}
 			}
 		}

@@ -929,12 +929,12 @@ h2 {
     width: 100%;
   }
   .home .homeImages .plane {
-    top: -25%;
+    top: -20%;
     left: -5%;
   }
   .search .sectionContainer {
     position: relative;
-    padding-bottom: 70px;
+    padding-bottom: 75px;
     max-width: 100%;
   }
   .search .sectionContainer .searchInputs {
@@ -942,10 +942,9 @@ h2 {
   }
   .search .sectionContainer .searchInputs .searchBtn {
     position: absolute;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 20%;
     margin-top: 17%;
-    margin-right: -7%;
+    margin-right: -10%;
   }
 }
 @media screen and (min-width: 1332px) {
