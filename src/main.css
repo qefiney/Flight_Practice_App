@@ -950,33 +950,30 @@ h2 {
   .home .mainText {
     width: 100%;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .home .homeImages {
+    width: 100%;
+  }
+  .home .homeImages .video {
     width: 100%;
   }
   .home .homeImages .plane {
     top: -20%;
     left: -5%;
   }
-  .navBar .navBarOne .menu {
-    gap: 1rem;
-  }
-  .navBar .navBarOne .menu .listItem {
-    padding: 0 1.5rem;
-    font-size: 14px;
-  }
   .search .sectionContainer {
     max-width: 100%;
+    padding-bottom: 100px;
   }
   .search .sectionContainer .searchInputs {
     grid-template-columns: repeat(4, 1fr);
   }
   .search .sectionContainer .searchInputs .searchBtn {
-    width: -moz-fit-content;
-    width: fit-content;
-    margin-top: 140px;
-    margin-bottom: 10px;
+    position: absolute;
+    width: 20%;
+    margin-top: 17%;
+    margin-right: -10%;
   }
   .support .sectionContainer .infoDiv {
     gap: 1rem;
