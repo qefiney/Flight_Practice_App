@@ -666,11 +666,11 @@ h2 {
   }
   .home .homeImages .video {
     border-radius: 15rem;
+    width: 95%;
   }
   .home .plane {
-    position: absolute;
-    width: 95%;
-    top: -8%;
+    width: 90%;
+    top: -50%;
   }
   .search .sectionContainer .btns {
     border-radius: 3rem;
