@@ -1089,7 +1089,7 @@ h2 {
 @media screen and (min-width: 960px) {
 	// Home section styling ====>
 	.home {
-		padding-top: 13rem;
+		padding-top: 15rem;
 		.mainText {
 			width: 70%;
 			padding-bottom: 1.5rem;
@@ -1111,7 +1111,7 @@ h2 {
 					position: absolute;
 					width: 20%;
 					margin-top: 17%;
-					margin-right: -7%;
+					margin-right: -10%;
 				}
 			}
 		}
@@ -1319,4 +1319,19 @@ h2 {
 			}
 		}
 	}
+}
+
+::selection {
+	background: var(--PrimaryColor);
+	color: var(--whiteColor);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: var(--greyBg);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--PrimaryColor);
+	border-radius: 10px;
 }
